@@ -79,18 +79,23 @@ How to run the app:
 ------------------
 
 Run npm run build directly.
+
 OR
+
 If that doesn't work do the following steps
--npm install
--bower install
--gulp build
--gulp serve
+  -npm install
+  -bower install
+  -gulp build
+  -gulp serve
+  
 Launches the browser and takes you to http://localhost:3000/home
 
 To run unit tests:
 ------------------ 
 npm run test
+
 OR
+
 gulp test
 
 Improvements:
