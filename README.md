@@ -10,7 +10,7 @@ Components:
 
 -- bower_components
    Will show the list of dependencies needed to run this app.
-   Consists of AngularJS 1.5.x and it dependencies, Angular ACE Editor(https://github.com/angular-ui/ui-ace) etc.
+   Consists of AngularJS 1.5.x and its dependencies, Angular ACE Editor(https://github.com/angular-ui/ui-ace) etc.
    
 -- coverage
    Lines of code unit tested.
@@ -75,13 +75,11 @@ CHOICE OF BROWSERS TO RUN THE APPLICATION: CHROME OR FIREFOX(latest versions pre
 
 ---------------------------------------------------------------------------------------
 
-
-
 How to run the app:
 ------------------
 
 Run npm run build directly.
-
+OR
 If that doesn't work do the following steps
 -npm install
 -bower install
