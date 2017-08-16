@@ -1,0 +1,11 @@
+.canvas-directive {
+  position: relative;
+  .turtle-canvas, .line-canvas {
+    border: 1px solid #222222;
+    position: absolute;
+  }
+
+  .turtle-canvas {
+
+  }
+}

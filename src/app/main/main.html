@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1>Logo Writer</h1>
+  </div>
+  <div class="row">
+      <h1 class="jumbotron text-center">
+        <span ng-if="command.cmd === 'left' || command.cmd === 'right'">Moving {{command.cmd}}</span>
+        <span ng-if="command.cmd === 'forward'">Moving forward by {{command.param}} pixels</span>
+        <span ng-if="command.cmd === 'color'">Changing color to {{command.param}}</span>
+        <span ng-if="!command.cmd">Waiting to move</span>
+      </h1>
+      <h3 class="text-center">Type in some logo commands in the left editor and see the movement on right canvas</h3>
+      <div class="col-md-6" editor-directive callback="executeCommand(data)"></div>
+      <div id="canvases" class="col-md-6" canvas-directive cmd="command"></div>
+    </div>
+  </div>
+</div>
