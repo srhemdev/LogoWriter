@@ -83,10 +83,14 @@ Run npm run build directly.
 OR
 
 If that doesn't work do the following steps
-  -npm install
-  -bower install
-  -gulp build
-  -gulp serve
+
+  --npm install
+  
+  --bower install
+  
+  --gulp build
+  
+  --gulp serve
   
 Launches the browser and takes you to http://localhost:3000/home
 
