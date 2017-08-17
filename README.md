@@ -89,7 +89,7 @@ If that doesn't work do the following steps
   
   --bower install
   
-  --gulp build
+  --gulp default or gulp build [gulp default also performs a gulp clean]
   
   --gulp serve
   

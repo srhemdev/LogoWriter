@@ -7,7 +7,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "build": "npm install && bower install && gulp build && gulp serve",
+    "build": "npm install && bower install && gulp default && gulp serve",
     "e2e": "gulp protractor"
   },
   "devDependencies": {
