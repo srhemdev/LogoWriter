@@ -10,7 +10,8 @@ Components:
 
 -- bower_components
    Will show the list of dependencies needed to run this app.
-   Consists of AngularJS 1.5.x and its dependencies, Angular ACE Editor(https://github.com/angular-ui/ui-ace) etc.
+   Consists of AngularJS 1.5.x and its dependencies, Angular ACE Editor
+   [https://github.com/angular-ui/ui-ace] etc.
    
 -- coverage
    Lines of code unit tested.
@@ -20,7 +21,7 @@ Components:
    gulp build. It can be used for deploying app to production
    
 -- gulp
-   Contains set of file to run gulp tasks like build, test, serve etc.
+   Contains set of files to run gulp tasks like build, test, serve etc.
    
 -- node_modules
    The necessary required devdependencies modules like gulp, karma, phantomjs etc are installed
