@@ -1,7 +1,10 @@
 {
   "name": "logoWriter",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1"
+  },
   "scripts": {
     "test": "gulp test",
     "build": "npm install && bower install && gulp build && gulp serve",
