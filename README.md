@@ -67,8 +67,6 @@ Components:
   -- karma.conf.js - Unit tests configuration.
   
   -- package.json - Dev dependencies configuration.
-  
-  -- protractor.conf.js - E2E tests configuration.
 
 ---------------------------------------------------------------------------------------
 
